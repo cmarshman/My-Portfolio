@@ -18,3 +18,7 @@ h3 {
 #icon {
     margin: 20px;
 }
+
+.portfolioSelector{
+    cursor: pointer;
+}

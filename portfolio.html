@@ -12,7 +12,7 @@
 
 <body>
   <section class="hero is-dark is-small">
-    <div class="hero-body">
+    <div class="hero-body" id="hero_picture">
       <div class="container has-text-centered">
         <a class="title" href="https://www.linkedin.com/in/cory-marshman-6aba24152/">
           <img id="head_shot" src="assets/images/head_shot.png" alt="head_shot">
@@ -37,30 +37,30 @@
   <section>
     <div class="tile is-parent is-12">
       <article class="tile is-child box notification">
-        <p class="title has-text-centered">Select your your favorite genre.</p>
-        <p class="subtitle has-text-centered">Select you favorite below to display current genre specific music news.
+        <p class="title has-text-centered">My Portfolio</p>
+        <p class="subtitle has-text-centered">Please select a project a project to view.
         </p>
       </article>
     </div>
   </section>
   <section>
-    <div class="tile is-ancestor genreSelector" id="toYellow">
+    <div class="tile is-ancestor portfolioSelector">
       <div class="tile is-parent">
-        <article class="tile is-child box notification is-dark music" data-genre="hip+hop+rap">
-          <p class="title has-text-centered">Hip-Hop/Rap</p>
-          <p class="subtitle has-text-centered">Find current Hip-hop and Rap news</p>
+        <article class="tile is-child box notification is-dark project" data-portfolio="intuitive_banana">
+          <p class="title has-text-centered">Intuitive Banana</p>
+          <p class="subtitle has-text-centered">My first Team Project</p>
         </article>
       </div>
-      <div class="tile is-parent genreSelector" id="toDark">
-        <article class="tile is-child box notification is-warning music" data-genre="pop+music">
-          <p class="title has-text-centered">Pop</p>
-          <p class="subtitle has-text-centered">Find current Pop news</p>
+      <div class="tile is-parent portfolioSelector">
+        <article class="tile is-child box notification is-warning project" data-genre="password_generator">
+          <p class="title has-text-centered">Password Generator</p>
+          <p class="subtitle has-text-centered">A random password generator</p>
         </article>
       </div>
-      <div class="tile is-parent genreSelector" id="toYellow">
-        <article class="tile is-child box notification is-dark music" data-genre="Rock+music">
-          <p class="title has-text-centered">Rock</p>
-          <p class="subtitle has-text-centered">Find current Rock news</p>
+      <div class="tile is-parent portfolioSelector">
+        <article class="tile is-child box notification is-dark project" data-genre="day_planner">
+          <p class="title has-text-centered">Day Planner</p>
+          <p class="subtitle has-text-centered">A day planner which allows users to keep up-to-date plans stored in Local Storage</p>
         </article>
       </div>
     </div>
