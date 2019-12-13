@@ -1,8 +1,12 @@
-.hero-body {
+#hero_picture {
     background-image: url('../images/forrest.jpg');
     background-attachment: fixed;
     width: 100%;
     margin: 0 auto;
     background-position: center;
     padding: 0;
+}
+
+#tile {
+    margin: 0 auto;
 }
