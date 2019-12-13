@@ -22,3 +22,9 @@ h3 {
 .portfolioSelector{
     cursor: pointer;
 }
+
+.banana{
+    background: #363636!important;
+    width: 100%;
+    margin: 0 auto;
+}

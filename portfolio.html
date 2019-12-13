@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cory Marshman</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
   <link rel="shortcut icon" type="image/png" href="assets/images/road_favicon.png">
   <link rel="stylesheet" href="assets/design/style.css">
 </head>
@@ -34,39 +35,35 @@
     </div>
   </section>
   <br>
-  <section>
-    <div class="tile is-parent is-12">
-      <article class="tile is-child box notification">
-        <p class="title has-text-centered">My Portfolio</p>
-        <p class="subtitle has-text-centered">Please select a project a project to view.
-        </p>
-      </article>
-    </div>
-  </section>
-  <section>
-    <div class="tile is-ancestor portfolioSelector">
-      <div class="tile is-parent">
-        <article class="tile is-child box notification is-dark project" data-portfolio="intuitive_banana">
-          <p class="title has-text-centered">Intuitive Banana</p>
-          <p class="subtitle has-text-centered">My first Team Project</p>
-        </article>
-      </div>
-      <div class="tile is-parent portfolioSelector">
-        <article class="tile is-child box notification is-warning project" data-genre="password_generator">
-          <p class="title has-text-centered">Password Generator</p>
-          <p class="subtitle has-text-centered">A random password generator</p>
-        </article>
-      </div>
-      <div class="tile is-parent portfolioSelector">
-        <article class="tile is-child box notification is-dark project" data-genre="day_planner">
-          <p class="title has-text-centered">Day Planner</p>
-          <p class="subtitle has-text-centered">A day planner which allows users to keep up-to-date plans stored in Local Storage</p>
-        </article>
-      </div>
-    </div>
-  </section>
-  <br>
+  <div class="tile is-ancestor">
+        <div class="tile is-vertical is-11" id="tile">
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-dark">
+                    <p class="title banana">Intuitive Banana</p>
+                    <div class="hero-body">
+                            <div class="container has-text-centered">
+                              <a class="title" href="https://drbailey13.github.io/IntuitiveBanana/index.html"
+                              target="_blank">
+                                <img c id="IntuitiveBanana" src="assets/images/intuitive_banana/home_page/home_page1.png" alt="IntuitiveBanana">
+                              </a>
+                              <div class="has-text-centered">
+                                  <h5>
+                                      <a href="https://github.com/DrBailey13/IntuitiveBanana/tree/master">
+                                      Git Hub Repo</a>
+                                  </h5>
+
+                              </div>
+                            </div>
+                          </div>
+
+
+            </article>
+          </div>
+        </div>
+  </div>
+
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="assets/design/script.js"></script>
 </body>
 
