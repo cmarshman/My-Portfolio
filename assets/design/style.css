@@ -1,0 +1,7 @@
+.hero-body {
+    background-image: url('../images/forrest.jpg');
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0 auto;
+    background-position: center;
+}
