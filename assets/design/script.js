@@ -1,14 +1,14 @@
 const modal = $("#newsDisplay");
 const projectArray = {
-    "portfolio1": [
-    "Intuitive Banana",
+    "portfolio1": {
+    name : "Intuitive Banana",
     "https://drbailey13.github.io/IntuitiveBanana/index.html",
     "https://github.com/DrBailey13/IntuitiveBanana/tree/master",
     "../images/intuitive_banana/home_page/home_page1.png",
     "../images/intuitive_banana/home_page/home_page2.png",
     "../images/intuitive_banana/featured_artist/featured_artist1.png",
     "../images/intuitive_banana/featured_artist/featured_artist2.png"
-    ],
+    },
     "portfolio2": [
         "day_planner",
         "https://cmarshman.github.io/day_planner/index.html",
