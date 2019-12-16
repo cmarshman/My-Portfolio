@@ -24,31 +24,32 @@ Please make sure to update tests as appropriate
 ## Links
 
 Framework: 
-    https://bulma.io/
 
-Porfolio 
+https://bulma.io/
 
-    Page URL:  https://cmarshman.github.io/myportfolio/index.html
+Porfolio: 
 
-    Github Repo:  https://github.com/cmarshman/myportfolio
+Page URL: https://cmarshman.github.io/myportfolio/index.html
 
-Project 1 
+Github Repo:  https://github.com/cmarshman/myportfolio
 
-    Page URL: https://cmarshman.github.io/IntuitiveBanana/index.html
+Project 1: 
 
-    Github Repo: https://github.com/cmarshman/IntuitiveBanana
+Page URL: https://cmarshman.github.io/IntuitiveBanana/index.html
 
-Password Generator
+Github Repo: https://github.com/cmarshman/IntuitiveBanana
 
-    Page URL: https://cmarshman.github.io/passwordgenerator/index.html
+Password Generator:
 
-    Github Repo: https://github.com/cmarshman/passwordgenerator
+Page URL: https://cmarshman.github.io/passwordgenerator/index.html
 
-Day Planner
+Github Repo: https://github.com/cmarshman/passwordgenerator
 
-    Page URL: https://cmarshman.github.io/day_planner/index.html
+Day Planner:
 
-    Github Repo: https://github.com/cmarshman/day_planner
+Page URL: https://cmarshman.github.io/day_planner/index.html
+
+Github Repo: https://github.com/cmarshman/day_planner
 
 Linkedin
     Profile: https://www.linkedin.com/in/cory-marshman-6aba24152/
@@ -58,26 +59,25 @@ GitHub:
 
 ## Images
 
-Favicon +++++++++++++++++++++++++++++++++++++
-[Favicon](assets/images/road_favicon.png)
+Favicon +++++++++++++++++++++++++++++++++++++++++++++++++
+![Favicon](assets/images/road_favicon.png)
 
-Head Shot +++++++++++++++++++++++++++++++++++++
+Head Shot +++++++++++++++++++++++++++++++++++++++++++++++
 ![Head_Shot](assets/images/head_shot.png)
 
-About Me +++++++++++++++++++++++++++++++++++++
+About Me ++++++++++++++++++++++++++++++++++++++++++++++++
 ![About_Me](assets/images/screenshots/about_me1.png)
 ![About_Me](assets/images/screenshots/about_me2.png)
 ![About_Me](assets/images/screenshots/about_me3.png)
 ![About_Me](assets/images/screenshots/about_me4.png)
 
-
-Portfolio +++++++++++++++++++++++++++++++++++++
+Portfolio ++++++++++++++++++++++++++++++++++++++++++++++
 ![Portfolio](assets/images/screenshots/portfolio1.png)
 ![Portfolio](assets/images/screenshots/portfolio2.png)
 ![Portfolio](assets/images/screenshots/portfolio3.png)
 ![Portfolio](assets/images/screenshots/portfolio4.png)
 
-Resume +++++++++++++++++++++++++++++++++++++
+Resume ++++++++++++++++++++++++++++++++++++++++++++++++
 ![Resume](assets/images/- Cmarshman -.pdf)
 
 ## License
