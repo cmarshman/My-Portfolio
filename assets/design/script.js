@@ -1,5 +1,5 @@
 const projectArray = {
-    portfolio: {
+    portfolio1: {
         name: "Intuitive Banana",
         deployedURL: "https://drbailey13.github.io/IntuitiveBanana/index.html",
         githubURL: "https://github.com/cmarshman/IntuitiveBanana",
@@ -24,7 +24,7 @@ const projectArray = {
             },
         },
     },
-    portfolio: {
+    portfolio2: {
         name: "day_planner",
         deployedURL: "https://cmarshman.github.io/day_planner/index.html",
         githubURL: "https://github.com/cmarshman/calendar",
@@ -35,7 +35,7 @@ const projectArray = {
             four: "assets/images/day_planner/return_to_page.png"
         },
     },
-    portfolio: {
+    portfolio3: {
         name: "password_generator",
         deployedURL: "https://cmarshman.github.io/passwordgenerator/index.html",
         githubURL: "https://github.com/cmarshman/passwordgenerator",
@@ -50,10 +50,10 @@ const modal = $("#projectDisplay");
 $(".project").on("click", function () {
     const portfolio = $(this).attr("data-portfolio");
     console.log(portfolio);
-    $("#displayName").text(projectArray.portfolio.name);
-    $("img1").attr("src", projectArray.portfolio.images.homePage.one);
-    $("#displayURL").attr("href", projectArray.portfolio.deployedURL).text("Deployed URL");
-    $("#displayURL2").attr("href", projectArray.portfolio.githubURL).text("GitHub Repo");
+    $("#displayName").text(projectArray.portfolio1.name);
+    $("img1").attr("src", projectArray.portfolio1.images.homePage.one);
+    $("#displayURL").attr("href", projectArray.portfolio1.deployedURL).text("Deployed URL");
+    $("#displayURL2").attr("href", projectArray.portfolio1.githubURL).text("GitHub Repo");
     modal.addClass('is-active');
 });
 

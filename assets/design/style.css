@@ -6,6 +6,9 @@
     background-position: center;
     padding: 0;
 }
+#external-links {
+    text-decoration: none;
+}
 
 #tile {
     margin: 0 auto;
