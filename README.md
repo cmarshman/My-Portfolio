@@ -69,13 +69,10 @@ About Me ++++++++++++++++++++++++++++++++++++++++++++++++
 ![About_Me](assets/images/screenshots/about_me1.png)
 ![About_Me](assets/images/screenshots/about_me2.png)
 ![About_Me](assets/images/screenshots/about_me3.png)
-![About_Me](assets/images/screenshots/about_me4.png)
 
 Portfolio ++++++++++++++++++++++++++++++++++++++++++++++
 ![Portfolio](assets/images/screenshots/portfolio1.png)
 ![Portfolio](assets/images/screenshots/portfolio2.png)
-![Portfolio](assets/images/screenshots/portfolio3.png)
-![Portfolio](assets/images/screenshots/portfolio4.png)
 
 Resume ++++++++++++++++++++++++++++++++++++++++++++++++
 ![Resume](assets/images/- Cmarshman -.pdf)
