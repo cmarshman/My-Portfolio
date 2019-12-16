@@ -3,11 +3,11 @@ A description of my current capabilities, work I've completed, resume and descri
 
 ## Installation
 
-No installation is necessary
+No installation is necessary.
 
 ## Purpose
 
-The purpose of this project is to give a functional look at my front end abilities and to display previous projects to potential employeers
+The purpose of this project is to give a functional look at my front end abilities and to display previous projects to potential employeers.
 
 ## Functionality
 
@@ -17,9 +17,9 @@ This page displays previous work, links to github, linkedin and my resume as wel
 
 Bulma.io, other students and TA's 
 
-Pull requests are welcom. For major chages, please open an issue first to discuss what you would like to change
+Pull requests are welcome. However, for major chages, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate
+Please make sure to update tests as appropriate.
 
 ## Links
 
@@ -74,7 +74,7 @@ Portfolio ++++++++++++++++++++++++++++++++++++++++++++++
 ![Portfolio](assets/images/screenshots/portfolio1.png)
 ![Portfolio](assets/images/screenshots/portfolio2.png)
 
-Resume ++++++++++++++++++++++++++++++++++++++++++++++++
+Resume +++++++++++++++++++++++++++++++++++++++++++++++++
 ![Resume](assets/images/- Cmarshman -.pdf)
 
 ## License
