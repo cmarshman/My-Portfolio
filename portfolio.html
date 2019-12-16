@@ -46,32 +46,19 @@
                         <section>
                             <div class="tile is-ancestor">
                                 <div class="tile is-parent">
-                                    <article class="tile is-child box notification is-light">
-                                        <a class="title" href="https://drbailey13.github.io/IntuitiveBanana/index.html"
-                                            target="_blank">
+                                    <article class="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio1">
                                             <img id="IntuitiveBanana"
-                                                src="assets/images/intuitive_banana/home_page/home_page1.png"
+                                                src="assets/images/intuitive_banana/home_page1.png"
                                                 style="width:400px;height:200px;"
                                                 alt="IntuitiveBanana">
                                             <img id="IntuitiveBanana2"
-                                                src="assets/images/intuitive_banana/home_page/home_page2.png"
+                                                src="assets/images/intuitive_banana/home_page2.png"
                                                 style="width:400px;height:200px;"
                                                 alt="IntuitiveBanana2">
-
-                                        </a>
-                                        <div class="has-text-centered">
-                                            <h5>
-                                                <a href="https://github.com/cmarshman/IntuitiveBanana" target="_blank">
-                                                    Git Hub Repo</a>
-                                            </h5>
-
-                                        </div>
                                     </article>
                                 </div>
                                 <div class="tile is-parent">
-                                    <article class="tile is-child box notification is-light">
-                                        <a class="title" href="https://cmarshman.github.io/passwordgenerator/index.html"
-                                            target="_blank">
+                                    <article class="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio2">
                                             <img id="PasswordGenerator"
                                                 src="assets/images/password_generator/beginning_prompt.png"
                                                 style="width:400px;height:200px;"
@@ -80,37 +67,55 @@
                                                 src="assets/images/password_generator/password_generated.png"
                                                 style="width:400px;height:200px;"
                                                 alt="PasswordGenerator">
-                                        </a>
-                                        <div class="has-text-centered">
-                                            <h5>
-                                                <a href="https://github.com/cmarshman/passwordgenerator"
-                                                    target="_blank">
-                                                    Git Hub Repo</a>
-                                            </h5>
-
-                                        </div>
                                     </article>
                                 </div>
                                 <div class="tile is-parent">
-                                    <article class="tile is-child box notification is-light">
-                                        <a class="title" href="https://cmarshman.github.io/day_planner/index.html"
-                                            target="_blank">
+                                    <article class="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio3">
                                             <img id="DayPlanner" src="assets/images/day_planner/page_opening.png"
                                             style="width:400px;height:200px;" alt="DayPlanner">
                                             <img id="DayPlanner2" src="assets/images/day_planner/local_storage.png"
                                             style="width:400px;height:200px;" alt="DayPlanner2">
-                                        </a>
-                                        <div class="has-text-centered">
-                                            <h5>
-                                                <a href="https://github.com/cmarshman/calendar" target="_blank">
-                                                    Git Hub Repo</a>
-                                            </h5>
-
-                                        </div>
                                     </article>
                                 </div>
                             </div>
                         </section>
+
+                        <!-- Modal Display -->
+                        <div class="modal" id="projectDisplay">
+                            <div class="modal-background close-modal"></div>
+                            <div class="modal-card">
+                              <header class="modal-card-head">
+                                <p class="modal-card-title pride" id="displayName"></p>
+                                <button class="delete close-modal" aria-label="close"></button>
+                              </header>
+                              <section class="modal-card-body">
+                                <div class="content has-text-centered">
+                                    <div class="tile is-ancestor">
+                                        <div class="tile is-parent">
+                                          <article class="tile is-child box notification is-dark">
+                                            <a id="displayURL" target="_blank"></a>
+                                          </article>
+                                        </div>
+                                        <div class="tile is-parent">
+                                          <article class="tile is-child box notification is-dark">
+                                            <a id="displayURL2" target="_blank"></a>
+                                          </article>
+                                        </div>
+                                     </div>
+                                     <hr>
+                                     <h5>Screen Shots</h5>
+                                     <img class="img1"></img>
+                                     <img class="img2"></img>
+                                     <img class="img3"></img>
+                                     <img class="img4"></img>
+                                    </div>
+                              </section>
+                              <footer class="modal-card-foot">
+                                <button class="button close-modal">Close</button>
+                              </footer>
+                            </div>
+                          </div>
+
                     </div>
                 </article>
             </div>
@@ -119,7 +124,7 @@
 
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
+    <script src="assets/design/script.js"></script>
 </body>
 
 </html>

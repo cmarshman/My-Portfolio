@@ -74,8 +74,21 @@ Portfolio ++++++++++++++++++++++++++++++++++++++++++++++
 ![Portfolio](assets/images/screenshots/portfolio1.png)
 ![Portfolio](assets/images/screenshots/portfolio2.png)
 
+Modal Screenshots ++++++++++++++++++++++++++++++++++++++
+![Modal_Screenshots](assets/images/intuitive_banana/home_page.png)
+![Modal_Screenshots](assets/images/intuitive_banana/featured_artist.png)
+![Modal_Screenshots](assets/images/intuitive_banana/music_news.png)
+![Modal_Screenshots](assets/images/intuitive_banana/search.png)
+![Modal_Screenshots](assets/images/password_generator/beginning_prompt.png)
+![Modal_Screenshots](assets/images/password_generator/password_length.png)
+![Modal_Screenshots](assets/images/password_generator/password_generated.png)
+![Modal_Screenshots](assets/images/password_generator/copy_to_clipboard.png)
+![Modal_Screenshots](assets/images/day_planner/page_opening.png)
+![Modal_Screenshots](assets/images/day_planner/local_storage.png)
+![Modal_Screenshots](assets/images/day_planner/moments_color_change.png)
+![Modal_Screenshots](assets/images/day_planner/return_to_page.png)
 Resume +++++++++++++++++++++++++++++++++++++++++++++++++
-![Resume](assets/images/- Cmarshman -.pdf)
+![Resume](assets/images/resume.pdf)
 
 ## License
 MIT License
