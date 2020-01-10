@@ -1,6 +1,8 @@
 const projectArray = {
     portfolio1: {
         name: "Intuitive Banana",
+        description: "Intuitive Banana is a multifunctional web-based music application, which allows you to search your favorite artists, follow trending musicians and the top 5 trending songs on Billboard, read up on the most recent music news per genre, check out local concerts and follow a link to buy tickets.",
+        development: "Bulma.io, HTML5, CSS, JavaScrip, JQuery, NY Times API, Ticket Master API AudioDB API, Git ",
         deployedURL: "https://drbailey13.github.io/IntuitiveBanana/index.html",
         githubURL: "https://github.com/cmarshman/IntuitiveBanana",
         images: {
@@ -12,6 +14,8 @@ const projectArray = {
         },
     portfolio2: {
         name: "Password Generator",
+        description: "Password Generator is a web-based application which allows users to generate random passwords, copy them and paste them on an additional page.",
+        development: "HTML5, CSS, JavaScrip, ",
         deployedURL: "https://cmarshman.github.io/passwordgenerator/index.html",
         githubURL: "https://github.com/cmarshman/passwordgenerator",
         images: {
@@ -23,6 +27,8 @@ const projectArray = {
     },
     portfolio3: {
         name: "Day Planner",
+        description: "Day Planner is a web-based local storage application, which allows users to log appointments. These appointments will stay in place even in the event the page is refreshed. It also tracks the date, causing the color to change through the day depending on the hours passed, present hour and future hours.",
+        development: "HTML5, CSS, JavaScript, Moment, Bootstrap",
         deployedURL: "https://cmarshman.github.io/day_planner/index.html",
         githubURL: "https://github.com/cmarshman/calendar",
         images: {
@@ -39,6 +45,8 @@ const modal = $("#projectDisplay");
 $(".project").on("click", function () {
     const portfolio = $(this).attr("data-portfolio");
     $("#displayName").text(projectArray[portfolio].name);
+    $("#description").text(projectArray[portfolio].description);
+    $("#development").text(projectArray[portfolio].development);
     $(".img1").attr("src", projectArray[portfolio].images.one);
     $(".img2").attr("src", projectArray[portfolio].images.two);
     $(".img3").attr("src", projectArray[portfolio].images.three);
