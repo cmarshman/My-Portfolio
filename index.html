@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cory Marshman</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
   <link rel="shortcut icon" type="image/png" href="assets/images/road_favicon.png">
   <link rel="stylesheet" href="assets/design/style.css">
 </head>
 
 <body>
-  <section class="hero is-dark is-small">
+  <section class="hero is-dark is-fullheight">
     <div class="hero-body" id="hero_picture">
       <div class="container has-text-centered">
         <br>
@@ -21,14 +22,16 @@
         <h1 class="title">
           Cory Marshman
         </h1>
-        <br>
+        <a href="#about_me">
+          <i class="fas fa-arrow-down fa-3x"></i>
+    </a>
       </div>
-    </div>
+    </div>  
     <div class="hero-foot">
-      <nav class="tabs is-boxed is-fullwidth">
+      <nav class="tabs is-boxed is-fullwidth">   
         <div class="container is-size-4">
           <ul>
-            <li><a href="index.html">About Me</a></li>
+            <li><a href="index.html" class="is-active">About Me</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
           </ul>
         </div>
@@ -41,7 +44,7 @@
     <div class="tile is-vertical is-11 " id="tile">
       <div class="tile is-parent">
         <article class="tile is-child notification is-dark">
-          <p class="title">About Me</p>
+          <p class="title" id="about_me">About Me</p>
           <p class="subtitle">I am a seasoned operations and project manager with 10+ years of management and business
             development experience. I am recognized for my natural aptitude at motivating staff, as well as for
             organizing promotional events and campaign sponsorship, I have a verifiable history of contributing directly
@@ -96,12 +99,15 @@
             <i class="fab fa-html5 fa-7x" id="icon"></i>
             <i class="fab fa-css3-alt fa-7x" id="icon"></i>
             <i class="fab fa-js fa-7x" id="icon"></i>
-            <img src="https://img.icons8.com/ios-filled/115/ffffff/jquery.png">
+            <img src="assets/images/icons/jquery.png">
+            <img src="assets/images/icons/mysql.png">
+            <img src="assets/images/icons/mongodb.png">
             <i class="fab fa-node-js fa-7x" id="icon"></i>
-            <img src="https://img.icons8.com/ios-filled/115/ffffff/heroku.png">
+            <i class="fab fa-react fa-7x" id="icon"></i>
+            <img src="assets/images/icons/heroku.png">
             <i class="fab fa-github-square fa-7x" id="icon"></i>
-            <img src="https://img.icons8.com/ios-filled/115/ffffff/adobe-illustrator.png">
-            <img src="https://img.icons8.com/ios-filled/115/ffffff/adobe-photoshop.png">
+            <img src="assets/images/icons/adobe-illustrator.png">
+            <img src="assets/images/icons/adobe-photoshop.png">
           </div>
           <div class="field">
             <p class="control has-icons-left has-icons-right">
@@ -136,6 +142,7 @@
 
 
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="assets/design/script.js"></script>
 </body>
 
