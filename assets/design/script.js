@@ -65,16 +65,16 @@ const projectArray = {
         }
     },
     portfolio6: {
-        name: "",
-        description: "",
-        development: "",
-        deployedURL: "",
-        githubURL: "",
+        name: "Eat-A-Burger",
+        description: "This allows users to interact with a web-hosted database through JawsDB on Heroku. Users can order and eat their favorite burgers and keep a log of devoured burgers.",
+        development: "Handlebars, Node.js, Express, CSS, JavaScript, Bulma.io, JawsDB, MySQL, Heroku, Github",
+        deployedURL: "https://git.heroku.com/secret-plateau-38610.git",
+        githubURL: "https://github.com/cmarshman/burger",
         images: {
-            one: "",
-            two: "",
-            three: "",
-            four: "",
+            one: "assets/images/burger/opening_page.png",
+            two: "assets/images/burger/burger_app.png",
+            three: "assets/images/burger/add_burger.png",
+            four: "assets/images/burger/eat_burger.png",
         }
     },
     portfolio7: {
