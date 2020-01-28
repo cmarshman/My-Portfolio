@@ -23,33 +23,53 @@ Please make sure to update tests as appropriate.
 
 ## Links
 
-Framework: 
+-------------------- Framework --------------------
 
 https://bulma.io/
 
-Porfolio: 
+-------------------- Porfolio --------------------
 
 Page URL: https://cmarshman.github.io/myportfolio/index.html
 
 Github Repo:  https://github.com/cmarshman/myportfolio
 
-Project 1: 
+-------------------- Project 1 --------------------
 
 Page URL: https://cmarshman.github.io/IntuitiveBanana/index.html
 
 Github Repo: https://github.com/cmarshman/IntuitiveBanana
 
-Password Generator:
+-------------------- Password Generator --------------------
 
 Page URL: https://cmarshman.github.io/passwordgenerator/index.html
 
 Github Repo: https://github.com/cmarshman/passwordgenerator
 
-Day Planner:
+-------------------- Day Planner --------------------
 
 Page URL: https://cmarshman.github.io/day_planner/index.html
 
 Github Repo: https://github.com/cmarshman/day_planner
+
+-------------------- React Task Manager --------------------
+
+Page URL: https://shielded-island-39719.herokuapp.com/
+
+Github Repo: https://github.com/cmarshman/react_todo_list
+
+-------------------- Note Taker --------------------
+
+Page URL: https://dry-lake-48846.herokuapp.com/
+
+Github Repo: https://github.com/cmarshman/note_taker
+
+-------------------- Eat-A-Burger --------------------
+
+Page URL: https://git.heroku.com/secret-plateau-38610.git
+
+Github Repo: https://github.com/cmarshman/burger
+
+-------------------- Additional Links --------------------
 
 Linkedin
     Profile: https://www.linkedin.com/in/cory-marshman-6aba24152/
@@ -87,6 +107,8 @@ Modal Screenshots ++++++++++++++++++++++++++++++++++++++
 ![Modal_Screenshots](assets/images/day_planner/local_storage.png)
 ![Modal_Screenshots](assets/images/day_planner/moments_color_change.png)
 ![Modal_Screenshots](assets/images/day_planner/return_to_page.png)
+
+
 Resume +++++++++++++++++++++++++++++++++++++++++++++++++
 ![Resume](assets/images/resume.pdf)
 
