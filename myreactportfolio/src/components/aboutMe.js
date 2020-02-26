@@ -1,47 +1,8 @@
-<!DOCTYPE html>
-<html>
+import React from 'react';
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cory Marshman</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
-  <link rel="shortcut icon" type="image/png" href="assets/images/road_favicon.png">
-  <link rel="stylesheet" href="assets/design/style.css">
-</head>
-
-<body>
-  <section class="hero is-dark is-fullheight">
-    <div class="hero-body" id="hero_picture">
-      <div class="container has-text-centered">
-        <br>
-        <a class="title" href="https://www.linkedin.com/in/cory-marshman-6aba24152/">
-          <img id="head_shot" src="assets/images/head_shot.png" alt="head_shot">
-        </a>
-        <h1 class="title">
-          Cory Marshman
-        </h1>
-        <a href="#about_me">
-          <i class="fas fa-arrow-down fa-3x"></i>
-    </a>
-      </div>
-    </div>  
-    <div class="hero-foot">
-      <nav class="tabs is-boxed is-fullwidth">   
-        <div class="container is-size-4">
-          <ul>
-            <li><a href="index.html" class="is-active">About Me</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </section>
-  <br>
-  <br>
-  <div class="tile is-ancestor">
+function AboutMe () {
+    return (
+    <div class="tile is-ancestor">
     <div class="tile is-vertical is-11 " id="tile">
       <div class="tile is-parent">
         <article class="tile is-child notification is-dark">
@@ -54,7 +15,7 @@
             leadership and training, technology solutions, and operations and project management. I deliver superior
             administration and expertise in effective communication, negotiation, as well as business acumen,
             operational analysis, and budget and resource management to support efficiency and maximum returns. </p>
-          <br>
+          <br/>
           <p class="title">Contact Information</p>
           <a href="mailto: marshman.cory@gmail.com" target="_blank">
             <p class="subtitle has-text-centered"  id="external-links">Email: marshman.cory@gmail.com</p>
@@ -62,7 +23,7 @@
           <p class="subtitle has-text-centered">
             Phone: 980-228-8926
           </p>
-          <br>
+          <br/>
           <p class="title">External Links</p>
           <section>
           <div class="tile is-ancestor">
@@ -70,7 +31,7 @@
               <article class="tile is-child box notification is-light">
                 <a href="https://www.linkedin.com/in/cory-marshman-6aba24152/" id="external-links" target="_blank">
                   <p class="subtitle has-text-centered">
-                    <i class="fab fa-linkedin fa-7x"></i><br>LinkedIn
+                    <i class="fab fa-linkedin fa-7x"></i><br/>LinkedIn
                   </p>
                 </a>
               </article>
@@ -79,7 +40,7 @@
               <article class="tile is-child box notification is-light">
                 <a href="https://github.com/cmarshman" id="external-links" target="_blank">
                   <p class="subtitle has-text-centered">
-                    <i class="fab fa-github-square fa-7x"></i><br>GitHub</p>
+                    <i class="fab fa-github-square fa-7x"></i><br/>GitHub</p>
                 </a>
               </article>
           </div>
@@ -87,39 +48,34 @@
               <article class="tile is-child box notification is-light">
                 <a href="assets/images/Cory_Marshman.pdf" id="external-links" target="_blank">
                   <p class="subtitle has-text-centered">
-                    <i class="fas fa-file-alt fa-7x"></i><br>Resume</p>
+                    <i class="fas fa-file-alt fa-7x"></i><br/>Resume</p>
                 </a>
               </article>
             </div>
           
         </div>
         </section>
-          <br>
+          <br/>
           <div class="content is-clearfix">
             <p class="title">My Skill Set</p>
             <i class="fab fa-html5 fa-7x" id="icon"></i>
             <i class="fab fa-css3-alt fa-7x" id="icon"></i>
             <i class="fab fa-js fa-7x" id="icon"></i>
-            <img src="assets/images/icons/jquery.png">
-            <img src="assets/images/icons/mysql.png">
-            <img src="assets/images/icons/mongodb.png">
+            <img src="assets/images/icons/jquery.png"/>
+            <img src="assets/images/icons/mysql.png"/>
+            <img src="assets/images/icons/mongodb.png"/>
             <i class="fab fa-node-js fa-7x" id="icon"></i>
             <i class="fab fa-react fa-7x" id="icon"></i>
-            <img src="assets/images/icons/heroku.png">
+            <img src="assets/images/icons/heroku.png"/>
             <i class="fab fa-github-square fa-7x" id="icon"></i>
-            <img src="assets/images/icons/adobe-illustrator.png">
-            <img src="assets/images/icons/adobe-photoshop.png">
+            <img src="assets/images/icons/adobe-illustrator.png"/>
+            <img src="assets/images/icons/adobe-photoshop.png"/>
           </div>
         </article>
       </div>
     </div>
   </div>
+    );
+}
 
-
-
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="assets/design/script.js"></script>
-</body>
-
-</html>
+export default AboutMe;

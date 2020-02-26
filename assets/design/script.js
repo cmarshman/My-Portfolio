@@ -68,7 +68,7 @@ const projectArray = {
         name: "Eat-A-Burger",
         description: "This allows users to interact with a web-hosted database through JawsDB on Heroku. Users can order and eat their favorite burgers and keep a log of devoured burgers.",
         development: "Handlebars, Node.js, Express, CSS, JavaScript, Bulma.io, JawsDB, MySQL, Heroku, Github",
-        deployedURL: "https://git.heroku.com/secret-plateau-38610.git",
+        deployedURL: "https://secret-plateau-38610.herokuapp.com/",
         githubURL: "https://github.com/cmarshman/burger",
         images: {
             one: "assets/images/burger/opening_page.png",
@@ -78,16 +78,16 @@ const projectArray = {
         }
     },
     portfolio7: {
-        name: "",
-        description: "",
-        development: "",
-        deployedURL: "",
-        githubURL: "",
+        name: "Giftify",
+        description: "This application helps the user search for and buy the perfect gift for their special someone. They can choose from a selection of Featured and Top Rated Gifts, or they can search for a gift directly from the homepage.",
+        development: "Handlebars, Node.js, Passport and Bcryptjs(user signup/login), JavaScript, JawsDB, Algolia DB, Sequelize, MySQL",
+        deployedURL: "https://giftify-project2.herokuapp.com/",
+        githubURL: "https://github.com/cmarshman/Giftify",
         images: {
-            one: "",
-            two: "",
-            three: "",
-            four: "",
+            one: "assets/images/giftify/login.png",
+            two: "assets/images/giftify/opening_screen.png",
+            three: "assets/images/giftify/etsy-api-search.png",
+            four: "assets/images/giftify/algoliaDB.png",
         }
     },
     portfolio8: {
@@ -117,6 +117,7 @@ const projectArray = {
         }
     },
 };
+
 $('a[href^="#"]').on('click', function(event) {
     var target = $(this.getAttribute('href'));
     if( target.length ) {
@@ -146,3 +147,7 @@ $(".project").on("click", function () {
 $(".close-modal").on("click", function () {
     modal.removeClass("is-active");
 });
+
+$("#submit").on("click", function (){
+    location.reload();
+})

@@ -6,6 +6,23 @@
     background-position: center;
     padding: 0;
 }
+
+#second_hero{
+    background-image: url('../images/intuitive_banana/home_page1.png');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    align-content: center;
+}
+
+#hero_picture2{
+    background-color: #363636;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    padding: 0;
+}
 #external-links {
     text-decoration: none;
 }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cory Marshman</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+  <link rel="shortcut icon" type="image/png" href="assets/images/road_favicon.png">
+  <link rel="stylesheet" href="assets/design/style.css">
+</head>
+
+<body>
+  <section class="hero is-dark is-fullheight">
+    <div class="hero-body" id="hero_picture">
+      <div class="container has-text-centered">
+        <br>
+        <a class="title" href="https://www.linkedin.com/in/cory-marshman-6aba24152/">
+          <img id="head_shot" src="assets/images/head_shot.png" alt="head_shot">
+        </a>
+        <h1 class="title">
+          Cory Marshman
+        </h1>
+        <a href="#contact_me">
+          <i class="fas fa-arrow-down fa-3x"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container is-size-4">
+          <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </section>
+  <br>
+  <div class="tile is-ancestor">
+    <div class="tile is vertical is-11" id="tile">
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-dark">
+          <form action="https://formspree.io/xayokwql" method="POST" target="_blank" id='myForm'>
+            <div class="field" id="contact_me">
+              <p class="control has-icons-left">
+                <input class="input" type="text" name="_replyto" placeholder="Email">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </p>
+            </div>
+
+            <div class="field">
+              <p class="control has-icons-left">
+                <input class="input" type="text" name="name" placeholder="Name">
+                <span class="icon is-small is-left">
+                  <i class="fas fa-portrait"></i>
+                </span>
+              </p>
+            </div>
+            <textarea class="textarea" name="message"placeholder="Leave your comments . . ."></textarea>
+            <br>
+            <div class="field">
+              <p class="control">
+                <button class="button is-success" type="submit" id="submit">
+                  Submit
+                </button>
+              </p>
+            </div>
+          </form>
+        </article>
+      </div>
+    </div>
+  </div>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="assets/design/script.js"></script>
+
+</body>
+
+</html>
