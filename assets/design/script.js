@@ -91,16 +91,16 @@ const projectArray = {
         }
     },
     portfolio8: {
-        name: "",
-        description: "",
-        development: "",
-        deployedURL: "",
-        githubURL: "",
+        name: "Shoestring",
+        description: "This is a peer to peer payment application supported through AWS blockchain smartledger. Shoestring will allow you to send up $5000 to anyone, anywhere in the world.",
+        development: "React Native, Firebase, Javascript, Passport and Bcryptjs, Plaid API, Currency Converter API, ",
+        deployedURL: "https://www.figma.com/proto/uqJHM2IyFmYsaFkPNux7YE/shoestring?node-id=8%3A23&scaling=scale-down",
+        githubURL: "https://github.com/cmarshman/shoestring-rn-app",
         images: {
-            one: "",
-            two: "",
-            three: "",
-            four: "",
+            one: "assets/images/shoestring/login.png",
+            two: "assets/images/shoestring/user-wallet.png",
+            three: "assets/images/shoestring/hamburger.png",
+            four: "assets/images/shoestring/currency-changer.png",
         }
     },
     portfolio9: {
