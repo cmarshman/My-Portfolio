@@ -2,10 +2,12 @@ import React from 'react';
 import MyWork from '../components/MyWork';
 import MySkills from '../components/MySkills';
 import ContactInfo from '../components/ContactInfo';
+import Header from '../components/Header';
 
 function AboutMe () {
     return (
     <>
+    <Header/>
     <br/>
     <div className="tile is-ancestor">
     <div className="tile is-vertical is-11 " id="tile">

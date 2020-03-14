@@ -35,10 +35,10 @@ function Modals () {
                     </div>
                  </div>
                  <h4>Screen Shots</h4>
-                 <img className="img1"></img>
-                 <img className="img2"></img>
-                 <img className="img3"></img>
-                 <img className="img4"></img>
+                 <img className="img1" alt="profile_img_1"></img>
+                 <img className="img2" alt="profile_img_2"></img>
+                 <img className="img3" alt="profile_img_3"></img>
+                 <img className="img4" alt="profile_img_4"></img>
                 </div>
           </section>
           <footer className="modal-card-foot">

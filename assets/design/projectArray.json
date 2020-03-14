@@ -1,4 +1,5 @@
-const projectArray = {
+[       
+    {
         "portfolio1": {
             "name": "Intuitive Banana",
             "description": "Intuitive Banana is a multifunctional web-based music application, which allows you to search your favorite artists, follow trending musicians and the top 5 trending songs on Billboard, read up on the most recent music news per genre, check out local concerts and follow a link to buy tickets.",
@@ -117,3 +118,4 @@ const projectArray = {
             }
         }
     }
+]

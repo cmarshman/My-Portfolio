@@ -8,9 +8,9 @@ function ContactInfo (){
           <div className="tile is-ancestor">
             <div className="tile is-parent">
               <article className="tile is-child box notification is-light">
-                <a href="mailto: marshman.cory@gmail.com" id="external-links" target="_blank">
+                <a href="mailto: marshman.cory@gmail.com" id="external-links" target="_blank" rel="noopener noreferrer">
                 <p className="subtitle has-text-centered"  >
-                <i class="fas fa-envelope-square fa-7x"></i><br/>Email: marshman.cory@gmail.com
+                <i className="fas fa-envelope-square fa-7x"></i><br/>Email: marshman.cory@gmail.com
                 </p>
                 </a>
               </article>
@@ -18,7 +18,7 @@ function ContactInfo (){
           <div className="tile is-parent">
               <article className="tile is-child box notification is-light">
                 <p className="subtitle has-text-centered">
-                <i class="fas fa-phone fa-7x"></i><br/>Phone: 980-228-8926
+                <i className="fas fa-phone fa-7x"></i><br/>Phone: 980-228-8926
                 </p>
               </article>
               </div>

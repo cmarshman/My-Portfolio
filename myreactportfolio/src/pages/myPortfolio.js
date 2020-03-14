@@ -1,45 +1,46 @@
 import React from 'react';
+import Modals from '../components/Modals';
+import Header from '../components/Header';
 
 function MyPortfolio () {
     return (
+    <>
+    <Header/>
+    <br/>
     <div className="tile is-ancestor">
         <div className="tile is-vertical is-11" id="tile">
             <div className="tile is-parent">
                 <article className="tile is-child notification is-dark">
-                    <p className="title banana" id="recent_work">My Recent Work</p>
+                    <p className="title banana" id="about_me">My Recent Work</p>
                     <div className="hero-body">
                         <section>
                             <div className="tile is-ancestor">
                                 <div className="tile is-parent">
                                     <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio1">
-                                            <img id="IntuitiveBanana"
+                                            <img id="profile-image"
                                                 src="assets/images/intuitive_banana/home_page1.png"
-                                                style="width:450px;height:200px;"
                                                 alt="IntuitiveBanana"/>
-                                            <img id="IntuitiveBanana2"
+                                            <img id="profile-image"
                                                 src="assets/images/intuitive_banana/home_page2.png"
-                                                style="width:450px;height:200px;"
                                                 alt="IntuitiveBanana2"/>
                                     </article>
                                 </div>
                                 <div className="tile is-parent">
                                     <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio6">
-                                            <img id="burger_app"
+                                            <img id="profile-image"
                                                 src="assets/images/burger/opening_page.png"
-                                                style="width:400px;height:200px;"
                                                 alt="burger_app"/>
-                                                <img id="burger_app"
+                                                <img id="profile-image"
                                                 src="assets/images/burger/burger_app.png"
-                                                style="width:400px;height:200px;"
                                                 alt="burger_app"/>
                                     </article>
                                 </div>
                                 <div className="tile is-parent">
                                     <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio3">
-                                            <img id="DayPlanner" src="assets/images/day_planner/page_opening.png"
-                                            style="width:400px;height:200px;" alt="DayPlanner"/>
-                                            <img id="DayPlanner2" src="assets/images/day_planner/local_storage.png"
-                                            style="width:400px;height:200px;" alt="DayPlanner2"/>
+                                            <img id="profile-image" src="assets/images/day_planner/page_opening.png"
+                                            alt="DayPlanner"/>
+                                            <img id="profile-image" src="assets/images/day_planner/local_storage.png"
+                                             alt="DayPlanner2"/>
                                     </article>
                                 </div>
                             </div>
@@ -48,35 +49,57 @@ function MyPortfolio () {
                             <div className="tile is-ancestor">
                             <div className="tile is-parent">
                                 <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio4">
-                                        <img id="react-task-manager" src="assets/images/react-task-manager/home.png"
-                                        style="width:400px;height:200px;" alt="react-task-manager"/>
-                                        <img id="react-task-manager" src="assets/images/react-task-manager/delete_add.png"
-                                        style="width:400px;height:200px;" alt="react-task-manager"/>
+                                        <img id="profile-image" src="assets/images/react-task-manager/home.png"
+                                         alt="react-task-manager"/>
+                                        <img id="profile-image" src="assets/images/react-task-manager/delete_add.png"
+                                         alt="react-task-manager"/>
                                 </article>
                             </div>
                             <div className="tile is-parent">
                                 <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio5">
-                                        <img id="note_taker" src="assets/images/note_taker/page_opening.png"
-                                        style="width:400px;height:200px;" alt="note_taker"/>
-                                        <img id="note_taker" src="assets/images/note_taker/stored_in_json.png"
-                                        style="width:400px;height:200px;" alt="note_taker2"/>
+                                        <img id="profile-image" src="assets/images/note_taker/page_opening.png"
+                                         alt="note_taker"/>
+                                        <img id="profile-image" src="assets/images/note_taker/stored_in_json.png"
+                                        alt="note_taker2"/>
                                 </article>
                             </div>
                             <div className="tile is-parent">
                                 <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio2">
-                                        <img id="password_generator" src="assets/images/password_generator/beginning_prompt.png"
-                                        style="width:400px;height:200px;" alt="password_generator"/>
-                                        <img id="password_generator" src="assets/images/password_generator/password_generated.png"
-                                        style="width:400px;height:200px;" alt="password_generator"/>
+                                        <img id="profile-image" src="assets/images/password_generator/beginning_prompt.png"
+                                         alt="password_generator"/>
+                                        <img id="profile-image" src="assets/images/password_generator/password_generated.png"
+                                         alt="password_generator"/>
                                 </article>
                             </div>
                         </div>
                         </section>
+                        <br/>
+                        <p className="title banana" id="recent_work">Projects Under Development</p>
+                        <div className="tile is-ancestor">
+                            <div className="tile is-parent">
+                                <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio8">
+                                        <img id="Shoestring"
+                                            src="assets/images/shoestring/login.png"
+                                            alt="Shoestring"/>
+                                        <img id="Shoestring"
+                                            src="assets/images/shoestring/user-wallet.png"
+                                            alt="Shoestring2"/>
+                                        <img id="Shoestring"
+                                            src="assets/images/shoestring/hamburger.png"
+                                            alt="Shoestring3"/>
+                                        <img id="Shoestring"
+                                            src="assets/images/shoestring/currency-changer.png"
+                                            alt="Shoestring4"/>
+                                </article>
+                            </div>
+                        </div>
+                        <Modals/>
                         </div>
                 </article>
             </div>
         </div>
     </div>
+    </>
     );
 }
 
