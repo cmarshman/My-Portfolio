@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Modals () {
     return (
         <div className="modal" id="projectDisplay">

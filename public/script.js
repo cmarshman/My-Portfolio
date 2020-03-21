@@ -130,7 +130,7 @@ $('a[href^="#"]').on('click', function(event) {
 
 const modal = $("#projectDisplay");
 
-$(".project").on("click", function () {
+$(document).on("click", ".project", function () {
     const portfolio = $(this).attr("data-portfolio");
     $("#displayName").text(projectArray[portfolio].name);
     $("#description").text(projectArray[portfolio].description);
