@@ -5,8 +5,8 @@ function Navbar () {
     const location = useLocation();
 
     return(
-        <div className="hero-foot is-dark">
-                <nav className="tabs is-boxed is-dark is-fullwidth">
+        <div className="hero-foot">
+                <nav className="tabs is-boxed is-fullwidth">
                     <div className="container is-size-4">
                         <ul>
                             <li>

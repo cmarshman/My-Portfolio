@@ -31,7 +31,7 @@ function MyWork() {
               </article>
             </div>
         </div>
-        </section>
+      </section>
     )
 }
 

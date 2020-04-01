@@ -94,7 +94,7 @@ function MyPortfolio () {
                             </div>
                         </div>
                         <Modals/>
-                        </div>
+                    </div>
                 </article>
             </div>
         </div>
