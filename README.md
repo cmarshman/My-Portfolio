@@ -116,9 +116,6 @@ Portfolio ++++++++++++++++++++++++++++++++++++++++++++++
 Contact ++++++++++++++++++++++++++++++++++++++++++++++++
 ![Contact_Me](public/assets/images/portfolio/contact_me.png)
 
-Resume +++++++++++++++++++++++++++++++++++++++++++++++++
-![Resume](public/assets/images/resume.pdf)
-
 ## License
 MIT License
 
