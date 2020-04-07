@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function MyWork() {
     return (
         <section>
@@ -24,7 +25,7 @@ function MyWork() {
           </div>
             <div className="tile is-parent">
               <article className="tile is-child box notification is-light">
-                <a href="assets/images/resume.pdf" id="external-links" target="_blank" rel="noopener noreferrer">
+                <a href="assets/images/Cory_Marshman.pdf" id="external-links" target="_blank" rel="noopener noreferrer">
                   <p className="subtitle has-text-centered">
                     <i className="fas fa-file-alt fa-7x"></i><br/>Resume</p>
                 </a>

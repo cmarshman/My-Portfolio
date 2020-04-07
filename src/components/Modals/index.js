@@ -123,16 +123,16 @@ function Modals(){
             }
         },
         portfolio10: {
-            name: "",
-            description: "",
-            development: "",
-            deployedURL: "",
-            githubURL: "",
+            name: "Employee Directory",
+            description: "A functional employee directory, which allows for you to search for a specific employee and or sort by name, phone, or email. Users are able to search for a specific employee or to sport the current display by name, phone number or email.",
+            development: "React, Javascript, ",
+            deployedURL: "https://serene-waters-42875.herokuapp.com/",
+            githubURL: "https://github.com/cmarshman/employee_directory",
             images: {
-                one: "",
-                two: "",
-                three: "",
-                four: ""
+                one: "assets/images/employee_directory/opening_screen.png",
+                two: "assets/images/employee_directory/search_screen.png",
+                three: "assets/images/employee_directory/email_sort.png",
+                four: "assets/images/employee_directory/name_sort.png"
             }
         }
     }
