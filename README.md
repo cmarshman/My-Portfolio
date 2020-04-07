@@ -29,7 +29,7 @@ https://bulma.io/
 
 -------------------- Porfolio --------------------
 
-Page URL: https://www.corymarshman.com
+Page URL: http://www.corymarshman.com
 
 Github Repo:  https://github.com/cmarshman/myportfolio
 
@@ -71,7 +71,7 @@ Github Repo: https://github.com/cmarshman/burger
 
 -------------------- Shoestring --------------------
 
-Page URL: https://www.shoestring.me
+Page URL: http://www.shoestring.me
 
 Github Repo: https://github.com/cmarshman/shoestring
 
