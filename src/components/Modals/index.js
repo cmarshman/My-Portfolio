@@ -113,7 +113,7 @@ function Modals(){
             name: "Shoestring User Dashboard",
             description: "Shoestring although still in development, is a peer to peer payment application that intergrates international payments no matter where you are in the world. We realized there is a gap in the market for a peer to peer payment system that can integrates currency conversion to send payments instantly both locally and internationally to anyone, anywhere.",
             development: "React, MongoDB, Javascript, Passport and Bcryptjs, JWT, Plaid API, Currency Converter API",
-            deployedURL: "https://www.shoestring.me",
+            deployedURL: "http://www.shoestring.me/",
             githubURL: "https://github.com/cmarshman/shoestring",
             images: {
                 one: "assets/images/shoestringDashboard/home_page.png",
