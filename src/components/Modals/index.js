@@ -97,9 +97,9 @@ function Modals(){
             }
         },
         portfolio8: {
-            name: "Shoestring",
-            description: "This is a peer to peer payment application supported through AWS blockchain smartledger. Shoestring will allow you to send up $5000 to anyone, anywhere in the world.",
-            development: "React Native, Firebase, Javascript, Passport and Bcryptjs, Plaid API, Currency Converter API, ",
+            name: "Shoestring Mobile Application",
+            description: "Shoestring although still in development, is a peer to peer payment application that intergrates international payments no matter where you are in the world. We realized there is a gap in the market for a peer to peer payment system that can integrates currency conversion to send payments instantly both locally and internationally to anyone, anywhere.",
+            development: "React Native, MongoDB, Javascript, Passport and Bcryptjs, JWT, Plaid API, Currency Converter API",
             deployedURL: "https://www.figma.com/proto/uqJHM2IyFmYsaFkPNux7YE/shoestring?node-id=8%3A23&scaling=scale-down",
             githubURL: "https://github.com/cmarshman/shoestring-rn-app",
             images: {
@@ -110,6 +110,19 @@ function Modals(){
             }
         },
         portfolio9: {
+            name: "Shoestring User Dashboard",
+            description: "Shoestring although still in development, is a peer to peer payment application that intergrates international payments no matter where you are in the world. We realized there is a gap in the market for a peer to peer payment system that can integrates currency conversion to send payments instantly both locally and internationally to anyone, anywhere.",
+            development: "React, MongoDB, Javascript, Passport and Bcryptjs, JWT, Plaid API, Currency Converter API",
+            deployedURL: "https://www.shoestring.me",
+            githubURL: "https://github.com/cmarshman/shoestring",
+            images: {
+                one: "assets/images/shoestringDashboard/home_page.png",
+                two: "assets/images/shoestringDashboard/login.png",
+                three: "assets/images/shoestringDashboard/user_dashboard.png",
+                four: "assets/images/shoestringDashboard/social_side.png"
+            }
+        },
+        portfolio10: {
             name: "",
             description: "",
             development: "",
