@@ -29,11 +29,11 @@ https://bulma.io/
 
 -------------------- Porfolio --------------------
 
-Page URL: https://cmarshman.github.io/myportfolio/index.html
+Page URL: https://www.corymarshman.com
 
 Github Repo:  https://github.com/cmarshman/myportfolio
 
--------------------- Project 1 --------------------
+-------------------- Intuitive Banana --------------------
 
 Page URL: https://cmarshman.github.io/IntuitiveBanana/index.html
 
@@ -69,6 +69,24 @@ Page URL: https://git.heroku.com/secret-plateau-38610.git
 
 Github Repo: https://github.com/cmarshman/burger
 
+-------------------- Shoestring --------------------
+
+Page URL: https://www.shoestring.me
+
+Github Repo: https://github.com/cmarshman/shoestring
+
+-------------------- Employee Directory --------------------
+
+Page URL: https://serene-waters-42875.herokuapp.com/
+
+Github Repo: https://github.com/cmarshman/employee_directory
+
+-------------------- Giftify --------------------
+
+Page URL: https://giftify-project2.herokuapp.com/
+
+Github Repo: https://github.com/cmarshman/Giftify
+
 -------------------- Additional Links --------------------
 
 Linkedin
@@ -80,37 +98,26 @@ GitHub:
 ## Images
 
 Favicon +++++++++++++++++++++++++++++++++++++++++++++++++
-![Favicon](assets/images/road_favicon.png)
+![Favicon](public/assets/images/road_favicon.png)
 
 Head Shot +++++++++++++++++++++++++++++++++++++++++++++++
-![Head_Shot](assets/images/head_shot.png)
+![Head_Shot](public/assets/images/head_shot.png)
 
-About Me ++++++++++++++++++++++++++++++++++++++++++++++++
-![About_Me](assets/images/screenshots/about_me1.png)
-![About_Me](assets/images/screenshots/about_me2.png)
-![About_Me](assets/images/screenshots/about_me3.png)
+Header +++++++++++++++++++++++++++++++++++++++++++++++++
+![Header](public/assets/images/portfolio/header.png)
+
+About Me +++++++++++++++++++++++++++++++++++++++++++++++
+![About_Me](public/assets/images/portfolio/about_me.png)
 
 Portfolio ++++++++++++++++++++++++++++++++++++++++++++++
-![Portfolio](assets/images/screenshots/portfolio1.png)
-![Portfolio](assets/images/screenshots/portfolio2.png)
+![Portfolio](public/assets/images/portfolio/portfolio.png)
+![Portfolio_Modal](public/assets/images/portfolio/portfolio_modal.png)
 
-Modal Screenshots ++++++++++++++++++++++++++++++++++++++
-![Modal_Screenshots](assets/images/intuitive_banana/home_page.png)
-![Modal_Screenshots](assets/images/intuitive_banana/featured_artist.png)
-![Modal_Screenshots](assets/images/intuitive_banana/music_news.png)
-![Modal_Screenshots](assets/images/intuitive_banana/search.png)
-![Modal_Screenshots](assets/images/password_generator/beginning_prompt.png)
-![Modal_Screenshots](assets/images/password_generator/password_length.png)
-![Modal_Screenshots](assets/images/password_generator/password_generated.png)
-![Modal_Screenshots](assets/images/password_generator/copy_to_clipboard.png)
-![Modal_Screenshots](assets/images/day_planner/page_opening.png)
-![Modal_Screenshots](assets/images/day_planner/local_storage.png)
-![Modal_Screenshots](assets/images/day_planner/moments_color_change.png)
-![Modal_Screenshots](assets/images/day_planner/return_to_page.png)
-
+Contact ++++++++++++++++++++++++++++++++++++++++++++++++
+![Contact_Me](public/assets/images/portfolio/contact_me.png)
 
 Resume +++++++++++++++++++++++++++++++++++++++++++++++++
-![Resume](assets/images/resume.pdf)
+![Resume](public/assets/images/resume.pdf)
 
 ## License
 MIT License

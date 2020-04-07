@@ -16,7 +16,7 @@ function MyPortfolio () {
                         <section>
                             <div className="tile is-ancestor">
                                 <div className="tile is-parent">
-                                    <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio10">
+                                    <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio9">
                                             <img id="profile-image"
                                                 src="assets/images/shoestringDashboard/home_page.png"
                                                 alt="shoestring"/>
