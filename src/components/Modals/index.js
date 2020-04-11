@@ -92,7 +92,7 @@ function Modals(){
             images: {
                 one: "assets/images/giftify/login.png",
                 two: "assets/images/giftify/opening_screen.png",
-                thre: "assets/images/giftify/etsy-api-search.png",
+                three: "assets/images/giftify/etsy-api-search.png",
                 four: "assets/images/giftify/algoliaDB.png"
             }
         },
