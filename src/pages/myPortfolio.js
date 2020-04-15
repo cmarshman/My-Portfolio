@@ -81,26 +81,28 @@ function MyPortfolio () {
                             </div>
                         </div>
                         </section>
-                        {/* <br/>
-                        <p className="title banana" id="recent_work">Projects Under Development</p>
-                        <div className="tile is-ancestor">
+                        <section>
+                            <div className="tile is-ancestor">
                             <div className="tile is-parent">
-                                <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio8">
-                                        <img id="Shoestring"
-                                            src="assets/images/shoestring/login.png"
-                                            alt="Shoestring"/>
-                                        <img id="Shoestring"
-                                            src="assets/images/shoestring/user-wallet.png"
-                                            alt="Shoestring2"/>
-                                        <img id="Shoestring"
-                                            src="assets/images/shoestring/hamburger.png"
-                                            alt="Shoestring3"/>
-                                        <img id="Shoestring"
-                                            src="assets/images/shoestring/currency-changer.png"
-                                            alt="Shoestring4"/>
+                                <article className="tile is-child box notification is-light project has-text-centered" id="portfolioSelector" data-portfolio="portfolio8">
+                                        <img id="profile-image" src="assets/images/shoestring/login.png" height="200" width="100"
+                                         alt="react-task-manager"/>
                                 </article>
                             </div>
-                        </div> */}
+                            <div className="tile is-parent">
+                                <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio11">
+                                        <img id="profile-image" src="assets/images/budgetTracker/opening_screen.png"
+                                         alt="note_taker"/>
+                                </article>
+                            </div>
+                            <div className="tile is-parent">
+                                <article className="tile is-child box notification is-light project" id="portfolioSelector" data-portfolio="portfolio12">
+                                        <img id="profile-image" src="assets/images/fitness-tracker/opening-page.png"
+                                         alt="password_generator"/>
+                                </article>
+                            </div>
+                        </div>
+                        </section>
                         <Modals/>
                     </div>
                 </article>

@@ -134,6 +134,34 @@ function Modals(){
                 three: "assets/images/employee_directory/email_sort.png",
                 four: "assets/images/employee_directory/name_sort.png"
             }
+        }, 
+        portfolio11: {
+            name: "Budget Tracker",
+            description: "A progressive web application to track your budget both online and off.",
+            development: "PWA's, React, JavaScript, Heroku, Github ",
+            deployedURL: "https://fast-refuge-17618.herokuapp.com/",
+            githubURL: "https://github.com/cmarshman/budget-tracker",
+            images: {
+                one: "assets/images/budgetTracker/opening_screen.png",
+                two: "assets/images/budgetTracker/budget_add.png",
+                three: "assets/images/budgetTracker/budget_subtract.png",
+                four: "assets/images/budgetTracker/cashed_items.png"
+
+            }
+        },
+        portfolio12: {
+            name: "Fitness Tracker",
+            description: "This application helps the user log their workout based on type of workout, Resistance or Cardio. The user can then input the workout details and have them logged into the fitness tracker. The ui then displays the user’s fitness statistic.",
+            development: "React, Javascript, Heroku, Github ",
+            deployedURL: "https://aqueous-lowlands-63673.herokuapp.com/",
+            githubURL: "https://github.com/cmarshman/fitness_tracker",
+            images: {
+                one: "assets/images/fitness-tracker/opening-page.png",
+                two: "assets/images/fitness-tracker/add-workout.png",
+                three: "assets/images/fitness-tracker/logged-stats.png",
+                four: "assets/images/fitness-tracker/opening-page.png"
+
+            }
         }
     }
     
